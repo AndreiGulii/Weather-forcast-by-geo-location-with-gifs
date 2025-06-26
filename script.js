@@ -242,7 +242,7 @@ async function getWeather(city, latitude, longitude) {
   const p1 = document.createElement("p");
   const p2 = document.createElement("p");
   const p3 = document.createElement("p");
-  p.textContent = `Forecast: ${code} `;
+  p.textContent = `Weather conditions: ${code} `;
   p1.textContent = `Temperature: ${temperature} C°`;
   p2.textContent = `Wind speed ${windSpeed} km/h `;
   p3.textContent = `Wind direction ${windDirection} °`;
