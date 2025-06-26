@@ -175,21 +175,21 @@ async function getWeather(city, latitude, longitude) {
       container.style.backgroundRepeat = "no-repeat";
       break;
     case 80:
-      code = "Rain showers: slight 🌨";
+      code = "Rain showers: slight 🌧";
       document.body.style.backgroundImage =
         "url('https://www.icegif.com/wp-content/uploads/2021/11/icegif-706.gif')";
       container.style.backgroundSize = "cover";
       container.style.backgroundRepeat = "no-repeat";
       break;
     case 81:
-      code = "Rain showers: moderate 🌨";
+      code = "Rain showers: moderate 🌧";
       document.body.style.backgroundImage =
         "url('https://www.icegif.com/wp-content/uploads/2023/03/icegif-526.gif')";
       container.style.backgroundSize = "cover";
       container.style.backgroundRepeat = "no-repeat";
       break;
     case 82:
-      code = "Rain showers: violent 🌨";
+      code = "Rain showers: violent 🌧";
       document.body.style.backgroundImage =
         "url('https://www.icegif.com/wp-content/uploads/2023/04/icegif-741.gif')";
       container.style.backgroundSize = "cover";
